@@ -1,0 +1,43 @@
+# Environments
+venv/
+env/
+.env
+rascal/.env
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Databases
+db.sqlite3
+db.sqlite3-journal
+
+# Distribution / Data
+dist/
+build/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Static & Media (User uploads)
+/static/
+/media/
+
+# OS specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
